@@ -1,0 +1,127 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #fff7f0;
+    color: #ff0000;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: #ff6f00;
+}
+
+/* mouse pointer */
+.logo img {
+    cursor: pointer;
+}
+
+/* nav bar */
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 17px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+/* Main section */
+main {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Background logo */
+.Background {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+/* Text */
+main p {
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Search box */
+.search-box {
+    margin: 30px auto;
+    width: 60%;
+    max-width: 500px;
+    position: relative;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 14px 18px;
+    border-radius: 30px;
+    border: 2px solid #ff6f00;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box input:focus {
+    box-shadow: 0 0 10px rgba(255, 111, 0, 0.4);
+}
+
+/* Food cards section */
+.food {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    background-color: #ff6f00;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.hero-line {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 500px;
+    color: #333;
+}
+
+.side-img {
+    width: 120px;
+}
+
+.left-img {
+    align-self: flex-start;
+}
+
+.right-img {
+    align-self: flex-end;
+}
